@@ -1,15 +1,15 @@
 
-localizedName: Vodkannon
-description: Ah nyet , hello comrade , we have a spare bottle of vodka for you to throw at the enemy
-size: 2
+localizedName: Zephyr Multi-Cannon
+description: "Shotgun that flings Titan Steel all over the place.
+size: 3
 type: ItemTurret
-buildCostMultiplier: 0.1
-scaledHealth: 420
-reload: 15
+buildCostMultiplier: 0.2
+scaledHealth: 4640
+reload: 30
 range: 100
 maxAmmo: 40
-ammoPerShot: 2
-recoil: 3
+ammoPerShot: 4
+recoil: 6
 rotateSpeed: 2 
 targetAir: false 
 targetGround: true 
@@ -21,24 +21,25 @@ consumes: {
   }
 }
 requirements: [ 
-  titanium/250
-  thorium/175
-  plastanium/125
+  titanium/460
+  thorium/250
+  plastanium/150
+  incep-titansteel/100
 ]  
 ammoTypes: { 
-  v-solidified-vodka: { 
+  incep-titansteel: { 
     type: BasicBulletType 
-    width: 3
-    height: 5
-    hitSize: 6
-    damage: 30
-    speed: 5
-    lifetime: 30
+    width: 5
+    height: 10
+    hitSize: 10
+    damage: 50
+    speed: 4
+    lifetime: 15
   }  
 }  
-inaccuracy: 15
+inaccuracy: 20
 shoot: {
-  shots: 6
+  shots: 20
   shotDelay: 0
 } 
 category: turret 
