@@ -18,7 +18,7 @@ consumes: {
       titanium/4
     ]
   }
-
+}
 requirements: [
   copper/400
   graphite/300
@@ -27,4 +27,3 @@ requirements: [
 ]
 category: crafting
 outputItem: incep-titansteel/2
-}
