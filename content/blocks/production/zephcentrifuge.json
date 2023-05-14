@@ -1,0 +1,33 @@
+name: Centrifugal Zephyr Catalyst
+description: "Uses centrifugal force to filter out particals from cryofluid, while also injecting silicon and phase fabric to supercharge it's cooling effect. Produces copper as a byproduct."
+type: GenericCrafter
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+itemCapacity: 32
+liquidCapacity: 32
+updateEffect: smeltsmoke
+consumes: {
+  power: 10
+  items: {
+    items: [
+      silicon/8
+      phase-fabric/4
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.8
+  }
+}
+requirements: [
+  copper/200
+  graphite/150
+  silicon/250
+  thorium/80
+]
+category: crafting
+outputLiquid: incep-zephblood/4
+outputItem: copper/3
