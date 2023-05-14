@@ -1,0 +1,15 @@
+    name: Titan Steel Wall,
+    type: Wall,
+    buildCostMultiplier: 0.1,
+    deflectSound: "sap",
+    chanceDeflect: 30.0,
+    flashHit: true,
+    flashColor: "79F2EEFF",
+    health: 44800,
+    size" 2,
+    requirements: [
+        {item: incep-titansteel/200
+    ],
+    "category": defense,
+    "research": incep-titansteel
+}
